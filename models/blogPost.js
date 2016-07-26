@@ -1,7 +1,7 @@
 
  var mongoose = require('mongoose');
 
- var Post = mongoose.model('Post', {
+ var Post = mongoose.model('blogPost', {
  	title: String,
  	body: String,
  	date: String,
